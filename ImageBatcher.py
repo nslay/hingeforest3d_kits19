@@ -31,7 +31,6 @@ class EndEpochToken:
 
 class ImageBatcher:
     def __init__(self, dataRoot, listFile, batchSize, numClasses=3, seed=6112, multipleOf=[16,16,16], window=455, level=75):
-        ShowWarnings(False)
         self.dataRoot = dataRoot
         self.multipleOf = multipleOf
         self.numChannels = 1
