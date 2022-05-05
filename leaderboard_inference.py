@@ -20,7 +20,6 @@ import os
 import SimpleITK as sitk
 import numpy as np
 from RCCSeg import RCCSeg
-from rcc_common import LoadImage, SaveImage
 import functools
 import operator
 
